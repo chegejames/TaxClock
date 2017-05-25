@@ -13,9 +13,7 @@ Original website is accessible at [https://taxclock.codeforkenya.org/](https://t
 
 To embed the TaxClock on your site, place the html code onto your page
 
-<div id="taxclock-ke">
-  <iframe src="https://taxclock.codeforkenya.org/embed.html?childId=taxclock-ke" width="100%" scrolling="no" marginheight="0" frameborder="0" style="height: 800px;"></iframe>
-</div>
+<script src="https://taxclock.codeforkenya.org/embed.js"/>
 
 ### Installation:
 
