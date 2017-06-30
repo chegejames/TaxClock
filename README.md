@@ -12,14 +12,15 @@ Original website is accessible at [https://taxclock.codeforkenya.org/](https://t
 ### Embedding
 
 To embed the TaxClock on your site, place the html code onto your page
-
+```
 <script src="https://taxclock.codeforkenya.org/embed.js"/>
-
+```
 ### Installation:
 
 TaxClock uses [Jekyll](http://jekyllrb.com/).
 
 #### Deploy locally
+
 To run locally, ensure that you are in the parent dir and run the commands below
 ```
 gem install jekyll bundler
