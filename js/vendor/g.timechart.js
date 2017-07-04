@@ -43,7 +43,6 @@ Raphael.fn.g.timechart = function (cx, cy, rad, opts) {
            //console.log("data: "+data[i].value+" - "+"labels: "+labels[i]);
        }
 	if (opts.sorted) {
-	   console.log("pass");
 	   values.sort(function (a, b) {
            return b.value - a.value;
        });

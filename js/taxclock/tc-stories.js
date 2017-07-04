@@ -12,7 +12,7 @@ TC.stories = {
     if (document.location.hostname == 'localhost') {
       base_url = 'http://{{ site.enforce_ssl }}';
     };
-      $.get(
+    $.get(
       base_url + '/data/standard-news.json',
       function( data ) {
         TC.stories.data = JSON.parse(data);

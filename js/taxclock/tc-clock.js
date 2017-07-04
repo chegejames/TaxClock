@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
   
   canvas = Raphael("canvas", wheight, wheight);
   clocked = canvas.clock(wheight/2,wheight/2,((wheight/2)-45));
-    pie = canvas.g.timechart(wheight/2,wheight/2, ((wheight/2)-15), {sorted:false});
+  pie = canvas.g.timechart(wheight/2,wheight/2, ((wheight/2)-15), {sorted:false});
 
   if (wheight < (992/2)) {
     clocked = canvas.clock(wheight/2,wheight/2,((wheight/2)-35));
