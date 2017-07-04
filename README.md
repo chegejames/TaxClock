@@ -12,23 +12,27 @@ Original website is accessible at [https://taxclock.codeforkenya.org/](https://t
 ### Embedding
 
 To embed the TaxClock on your site, place the html code onto your page
+
 ```
 <script src="https://taxclock.codeforkenya.org/embed.js"/>
 ```
+
 ### Installation:
 
 TaxClock uses [Jekyll](http://jekyllrb.com/).
 
 #### Deploy locally
 
-To run locally, ensure that you are in the parent dir and run the commands below
+To run locally, ensure that you are in the parent directory and run the commands below:
+
 ```
 gem install jekyll bundler
 jekyll s
 ```
+
 #### Deploy to Github Pages
 
-Simply have it on Github and follow instruction [here](https://pages.github.com/).
+Simply have it on Github and follow instructions [here](https://pages.github.com/).
 
 #### Deploy to S3
 

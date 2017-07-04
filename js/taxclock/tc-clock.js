@@ -1,3 +1,5 @@
+---
+---
 var canvas;
 var clocked;
 var pie;
@@ -32,7 +34,7 @@ jQuery(document).ready(function($) {
   
   canvas = Raphael("canvas", wheight, wheight);
   clocked = canvas.clock(wheight/2,wheight/2,((wheight/2)-45));
-  pie = canvas.g.timechart(wheight/2,wheight/2, ((wheight/2)-15), {sorted:false});
+    pie = canvas.g.timechart(wheight/2,wheight/2, ((wheight/2)-15), {sorted:false});
 
   if (wheight < (992/2)) {
     clocked = canvas.clock(wheight/2,wheight/2,((wheight/2)-35));
@@ -247,8 +249,8 @@ function analyzeData(data, income){
       //var aday = daily / hourly;
      // var daily = Math.round(taxman_fraction * 21 * 8);
       var aday = taxman_fraction * 8;
-
-      clocked.writeto("Kenyan Government",formatHoursFlat(aday));
+  
+      clocked.writeto("{{ site.government }}",formatHoursFlat(aday));
       
 }
 
